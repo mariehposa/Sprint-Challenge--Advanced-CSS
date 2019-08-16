@@ -245,6 +245,11 @@ footer {
   background: #22283A;
   color: white;
 }
+.home .walk .walk-text .btn:hover {
+  background: gray;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
