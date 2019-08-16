@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SpaceWalkers</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
         <nav>
         <h1>SpaceWalkers</h1>
         <div class="top-nav">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About Us</a>
             <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
+            <a href="#">Contact</a>
             <a href="#">Sign In</a>
         </div>
         </nav>
             
         <div class="container home">
-            <form>
-                <input type="" placeholder="Email" />
-                <input type="" placeholder="subject" />
-                <textarea placeholder="Enter your message"
-            </form>
+            <div class="contact">
+                <h2>Contact</h2>
+                <form class="">
+                    <input type="email" name="email-address" id="email-address" placeholder="Email"/>
+                    <input class="" type="text" name="name" id="name" placeholder="Subject"/>
+                    <textarea class="" name="comment" placeholder="Enter your message" aria-describedby="comment-desc" onChange={this.onMessageChange}></textarea>
+                    <button class="">Send message</button>
+                </form>
+            </div>
         </div>   
             
 </body>

@@ -310,3 +310,8 @@ footer {
     margin-left: 0px;
   }
 }
+.home .contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
