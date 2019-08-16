@@ -1,11 +1,11 @@
 // Mixins Here
-.buttonStyle(@color){
-    width: 30%;
-    height: 40px;
+.buttonStyle(@color, @width, @height, @padding){
+    width: @width;
+    height: @height;
     text-align: center;
     border-radius: 5px;
     font-size: 2rem;
-    padding-top: 10px; 
+    padding-top: @padding; 
     background: @btn-bg-color;
     color: @color;
 

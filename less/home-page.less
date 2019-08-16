@@ -77,7 +77,7 @@
       }
 
       .btn {
-        .buttonStyle(white);
+        .buttonStyle(white, 30%, 40px, 10px);
       }
     }
 
@@ -89,6 +89,29 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+
+    @media @phone {
+      flex-direction: column-reverse;
+      padding: 2rem;
+      margin-top: 2rem;
+
+      .walk-text{
+        width: 100%;
+
+        h3{
+          margin-top: 15px;
+        }
+
+        .btn {
+          .buttonStyle(white, 100%, 60px, 20px);
+        }
+      }
+
+      .walk-img{
+        width: 100%;
+        margin-left: 0px;
       }
     }
   }
